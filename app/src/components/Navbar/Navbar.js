@@ -5,13 +5,15 @@ import "./Navbar.css";
 const Navbar = () => {
     return (
      <nav class = "navbar">
+
         <div class = "header">
             My website
         </div>
         <div class = "links">
-            <a> Home </a>
-            <a> Not Home </a>
+            <Link to = "/home"> Home </Link>
+            <Link to = "/nothome"> Not Home </Link>
         </div>
+
      </nav>
      // add Home and NotHome, including links (after routing established)
 )};
