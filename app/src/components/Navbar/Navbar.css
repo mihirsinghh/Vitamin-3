@@ -6,11 +6,15 @@
 }
 
 .header {
+    color: white;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
 }
 
 .links {
+    color: white;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     margin-left: auto;

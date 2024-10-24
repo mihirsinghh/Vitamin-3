@@ -1,0 +1,6 @@
+h2 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

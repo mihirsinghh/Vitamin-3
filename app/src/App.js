@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from "./components/Navbar/Navbar.js";
-import {Route, Switch} from 'react-router-dom';
-import Home from "./pages/Home";
-import NotHome from "./pages/NotHome";
+import {Route, Routes} from 'react-router-dom';
+import Home from "./pages/Home/Home.js";
+import NotHome from "./pages/NotHome/NotHome.js";
 
 
 function App() {
@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Navbar/>
   
-      <Switch>
-        <Route path = "/home" component = {Home}/>
-        <Route path = "/nothome" component = {NotHome}/>
-      </Switch>
+      <Routes>
+        <Route path = "/home" element = {<Home/>}/>
+        <Route path = "/nothome" element = {<NotHome/>}/>
+      </Routes>
 
     </div>
   );
